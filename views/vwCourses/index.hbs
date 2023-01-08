@@ -1,0 +1,54 @@
+<div class="card" style="margin-top: 100px;">
+  <h4 class="card-header d-flex justify-content-between">
+    Courses
+    {{! <a
+      class="btn btn-sm btn-outline-primary"
+      href="/admin/Courses/add"
+      role="button"
+    >
+      <i class="fa fa-plus" aria-hidden="true"></i>
+      Add Courses
+    </a> }}
+  </h4>
+  {{#if this.empty}}
+    <div class="card-body">
+      Không có dữ liệu!
+    </div>
+  {{else}}
+    <div class="card-body">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Courses</th>
+            <th>Price</th>
+
+            <th>&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each this.courses}}
+            <tr>
+              <td scope="row">{{CourID}}</td>
+              <td>{{CourName}}</td>
+              <td>{{format_number Price}}</td>
+              <form method="post">
+                <td class="text-right">
+                  <button
+                    type="submit"
+                    class="btn btn-sm btn-danger"
+                    formaction="/admin/Courses/del?id={{CourID}}"
+                  >
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    Delete
+                  </button>
+                </td>
+              </form>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  {{/if}}
+
+</div>

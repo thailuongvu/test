@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9a9cdb6-0928-4361-802a-4edde72deaad" name="Changes" comment="update for user-profile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/vwCourses/detail.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/vwCourses/detail.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2InYNnA6j53GN7lGMCo3epzMmlP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tranm/OneDrive/Máy tính/Group6-KTPM-20CLCB/utils/123.sql",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\suyoung\Desktop\Courses-Group6\Group6-FinalProject\public\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\suyoung\Desktop\Courses-Group6\Group6-FinalProject\public\img\5" />
+      <recent name="C:\Users\suyoung\Desktop\Courses-Group6\Group6-FinalProject\public\img\4" />
+      <recent name="C:\Users\suyoung\Desktop\Courses-Group6\Group6-FinalProject\public\img\3" />
+      <recent name="C:\Users\suyoung\Desktop\Courses-Group6\Group6-FinalProject\public\img\2" />
+      <recent name="C:\Users\suyoung\Desktop\Courses-Group6\Group6-FinalProject\public\img\1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a9cdb6-0928-4361-802a-4edde72deaad" name="Changes" comment="Delete the duplicate file" />
+      <created>1670818779133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670818779133</updated>
+      <workItem from="1670818780146" duration="1143000" />
+      <workItem from="1670827097475" duration="3748000" />
+      <workItem from="1670833315004" duration="1061000" />
+      <workItem from="1670842381577" duration="1059000" />
+      <workItem from="1670854658005" duration="6617000" />
+      <workItem from="1670898450807" duration="8335000" />
+      <workItem from="1670920651729" duration="3662000" />
+      <workItem from="1670936908201" duration="9309000" />
+      <workItem from="1670984608585" duration="1054000" />
+      <workItem from="1671002302680" duration="3968000" />
+      <workItem from="1671026959900" duration="5224000" />
+      <workItem from="1671070460342" duration="5822000" />
+      <workItem from="1671412153528" duration="8789000" />
+      <workItem from="1671437213506" duration="4620000" />
+      <workItem from="1671507474954" duration="6317000" />
+      <workItem from="1671631376070" duration="12175000" />
+      <workItem from="1671677097635" duration="4214000" />
+      <workItem from="1671802418117" duration="7740000" />
+      <workItem from="1672105092966" duration="10091000" />
+    </task>
+    <task id="LOCAL-00001" summary="First setup for project">
+      <created>1670819844717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670819844717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.2 Trang chủ (1)">
+      <created>1670830882194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670830882194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.2 Trang chủ (2): Update with css and JS">
+      <created>1670906489616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670906489616</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.2 Trang chủ (3): Update css and JS, add image">
+      <created>1670946577522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670946577522</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.2 Trang chủ (3): Update css and JS, add image">
+      <created>1670946673646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670946673646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add SQL script">
+      <created>1671027106398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671027106398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change SQL script">
+      <created>1671075278903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671075278903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Delete the duplicate file">
+      <created>1671352641607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671352641607</updated>
+    </task>
+    <task id="LOCAL-00009" summary="4: Administrator: adding layout uin backend">
+      <created>1671422744599</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671422744599</updated>
+    </task>
+    <task id="LOCAL-00010" summary="editing search bar">
+      <created>1671680281992</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671680281992</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add search">
+      <created>1671680339098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671680339098</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add search function and fix">
+      <created>1671680351136</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671680351136</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix">
+      <created>1671803452012</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671803452012</updated>
+    </task>
+    <task id="LOCAL-00014" summary="no">
+      <created>1671804570017</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671804570017</updated>
+    </task>
+    <task id="LOCAL-00015" summary="no">
+      <created>1671804588530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671804588530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add profile for user">
+      <created>1671804765076</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671804765076</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update for user-profile">
+      <created>1672113449007</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672113449007</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First setup for project" />
+    <MESSAGE value="1.2 Trang chủ (1)" />
+    <MESSAGE value="1.2 Trang chủ (2): Update with css and JS" />
+    <MESSAGE value="1.2 Trang chủ (3): Update css and JS, add image" />
+    <MESSAGE value="Add SQL script" />
+    <MESSAGE value="Change SQL script" />
+    <MESSAGE value="Delete the duplicate file" />
+    <MESSAGE value="4: Administrator: adding layout uin backend" />
+    <MESSAGE value="editing search bar" />
+    <MESSAGE value="add search" />
+    <MESSAGE value="add search function and fix" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="no" />
+    <MESSAGE value="add profile for user" />
+    <MESSAGE value="update for user-profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for user-profile" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/courses.route.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/courses-user.route.js</url>
+          <line>64</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

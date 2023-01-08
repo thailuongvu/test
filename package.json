@@ -1,0 +1,41 @@
+{
+  "type": "module",
+  "name": "group6-finalproject",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyoung02/Group6-KTPM-20CLCB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap-icons": "^1.10.2",
+    "connect-session-knex": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^6.0.6",
+    "express-handlebars-sections": "^1.0.1",
+    "express-session": "^1.17.3",
+    "i": "^0.3.7",
+    "knex": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "npm": "^9.2.0",
+    "numeral": "^2.0.6",
+    "otp-generator": "^4.0.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/suyoung02/Group6-KTPM-20CLCB/issues"
+  },
+  "homepage": "https://github.com/suyoung02/Group6-KTPM-20CLCB#readme",
+  "description": ""
+}

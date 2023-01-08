@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="public/style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+          crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+          integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+          crossorigin="anonymous" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+    <script>
+        function hiding(){
+            $("#fgh").css("display","none");
+        }
+        function myFunction() {
+            let score = 0;
+            let comment = document.getElementById('textcomment');
+            if( document.getElementById('rate-5').checked) score = 5
+            else if( document.getElementById('rate-4').checked) score = 4
+            else if( document.getElementById('rate-3').checked) score = 3
+            else if( document.getElementById('rate-2').checked) score = 2
+            else if( document.getElementById('rate-1').checked) score = 1
+            $.ajax({
+                url: "http://localhost:3000",
+                type: "POST",
+                data :{score: JSON.stringify(score),
+                    comment: JSON.stringify(comment)
+                },
+                dataType: "json",
+                success: function (result) {
+                    alert("123");
+                    $('#fgh').hide();
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            {{#each this.popular}}
+            <div class="carousel-item c-item">
+                <img src="public/img/{{CourID}}/main.jpg" class="d-block w-100 c-img" alt="Slide 1">
+                <div class="carousel-caption top-0 mt-4">
+                    <p class="mt-5 fs-3 text-uppercase"></p>
+                    <h1 class="display-1 fw-bolder text-capitalize">{{CourName}}</h1>
+                    <a class="btn btn-primary px-4 py-2 fs-5 mt-5" href="/courses/detail/{{CourID}}">See Detail</a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid my-5">
+        <h1>TOP NEWEST COURSES</h1>
+        <div class="row">
+            <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                    {{#each this.newest}}
+                    <div class="item mb-4">
+                        <div class="card text-center border-0 shadow">
+                            <img src="public/img/123.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>{{CourName}}</h4>
+                                </div>
+                                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="/courses/detail/{{CourID}}" class="btn btn-primary">Check Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mostview container-fluid my-5">
+        <h1>TOP MOST VIEWS COURSES</h1>
+        <div class="row">
+            <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                    {{#each this.newest}}
+                        <div class="item mb-4">
+                            <div class="card text-center border-0 shadow">
+                                <img src="public/img/123.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h4>{{CourName}}</h4>
+                                    </div>
+                                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="/courses/detail/{{CourID}}" class="btn btn-primary">Check detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mostCat">
+        <div class="row" style="display:inline; text-align: center">
+            <h2>Top </h2>
+            <ul>
+                <li>
+                    <a>1</a>
+                </li>
+                <li>
+                    <a>1</a>
+                </li>
+                <li>
+                    <a>1</a>
+                </li>
+                <li>
+                    <a>1</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <form id="fgh">
+    <div class="rating">
+        <div class="post">
+            <div class="text">Thanks for rating us!</div>
+            <div class="edit">EDIT</div>
+        </div>
+            <div class="star-widget">
+                <input type="radio" name="rate" id="rate-5" value="5">
+                <label for="rate-5" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-4" value="4">
+                <label for="rate-4" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-3" value="3">
+                <label for="rate-3" class="fas fa-star" ></label>
+                <input type="radio" name="rate" id="rate-2" value="2">
+                <label for="rate-2" class="fas fa-star"></label>
+                <input type="radio" name="rate" id="rate-1" value="1">
+                <label for="rate-1" class="fas fa-star"></label>
+                    <header></header>
+                    <div class="textarea">
+                        <textarea id="textcomment" name="comment" cols="30" placeholder="Describe your experience.."></textarea>
+                    </div>
+                    <div class="btn">
+                        <button onclick="myFunction()" type="button">Post</button>
+                    </div>
+            </div>
+    </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+    <script>
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        const star1 = document.querySelector("#rate-1");
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#hero-carousel').find('.carousel-item').first().addClass('active');
+        });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            navText : ['<i class="fa-solid fa-angle-left" ></i>','' +
+            '<i class="fa-solid fa-angle-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>
